@@ -6,7 +6,7 @@
 
 // then use like porp {} ke sath
 
-
+// we can also send multiple value in single provider in double {{ : }}   ke andr
 
 
 import React,{ createContext, useState} from 'react'
