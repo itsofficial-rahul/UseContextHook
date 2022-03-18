@@ -16,10 +16,11 @@ export  const User=createContext()  // context create with export ke sath
 function App()
 {
   const [count,setCount]=useState(0)
+  const[color,setcolor]=useState("green")
     return(
     <div>
    <Title /> 
-      <User.Provider value={count}> 
+      <User.Provider value={{count:count,clr:color}}> 
      <Com1 />
       <button onClick={()=>setCount(count+1)}>update me</button>
       <h1>useContext</h1>
